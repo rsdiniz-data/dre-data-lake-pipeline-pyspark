@@ -11,7 +11,7 @@
 ## ⚡ Performance
 
 - Processamento distribuído com PySpark  
-- Uso de arquivos columnar (Parquet)  
+- Uso de formato colunar (Parquet), otimizado para leitura analítica  
 - Redução de carga nas ferramentas de consumo  
 
 ---
