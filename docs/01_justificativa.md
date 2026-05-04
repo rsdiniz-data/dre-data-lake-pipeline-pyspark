@@ -27,7 +27,7 @@ Evoluir para uma arquitetura baseada em Data Lake, utilizando o padrão Medallio
 
 ## 🔗 Rastreabilidade
 
-- 📥 Ingestão (Bronze → Silver): [Ver Script](../scripts/python/01_ingestao_plano_conta.py)  
-- 📊 Transformação Resultado (Bronze → Silver): [Ver Script](../scripts/python/02_ingestao_resultado.py)  
-- 🧱 Dimensão dPlanoConta (Silver → Gold): [Ver Script](../scripts/python/03_gold_dplano_conta.py)  
-- 🔄 Fato ftResultado (Silver → Gold): [Ver Script](../scripts/python/04_gold_ftresultado.py)  
+- 📥 Ingestão / Estruturação PlanoConta (Bronze → Silver): [Ver Script](../scripts/cloud/silver/01_plano_conta.py)  
+- 📊 Transformação Resultado (Bronze → Silver): [Ver Script](../scripts/cloud/silver/02_resultado.py)  
+- 🧱 Dimensão dPlanoConta (Silver → Gold): [Ver Script](../scripts/cloud/gold/03_d_plano_conta.py)  
+- 🔄 Fato ftResultado (Silver → Gold): [Ver Script](../scripts/cloud/gold/04_ft_resultado.py)  
