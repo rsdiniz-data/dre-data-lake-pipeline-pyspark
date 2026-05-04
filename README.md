@@ -39,9 +39,10 @@ Mesmo com ganhos significativos em organização e performance, a solução aind
 
 ---
 
-## 🔗 Projeto anterior (SQL Server)
+## 🔗 Projetos anteriores
 
-👉 [*DRE Embraer – SQL Server + Power BI*](https://github.com/rsdiniz-data/dre-data-pipeline-sql-server)
+👉 Power BI [*DRE Automatizada – Análise Financeira*](https://github.com/rsdiniz-data/dre-analise-financeira-powerbi)
+ SQL Server👉 [*DRE Embraer – SQL Server + Power BI*](https://github.com/rsdiniz-data/dre-data-pipeline-sql-server)
 
 ---
 
