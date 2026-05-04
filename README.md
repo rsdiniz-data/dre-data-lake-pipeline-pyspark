@@ -10,7 +10,7 @@ O desafio: transformar dados públicos (Excel no SharePoint) em informação con
 
 ## 🚧 Contexto
 
-Os dados estavam disponíveis em formatos não estruturados (PDF) e semi-estruturados (Excel), o que dificultava:
+Os dados estavam disponíveis em formatos semi-estruturados (Excel), o que dificultava:
 
 * Padronização das análises  
 * Reutilização dos dados  
