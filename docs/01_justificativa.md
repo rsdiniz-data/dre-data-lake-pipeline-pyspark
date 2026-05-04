@@ -27,6 +27,7 @@ Evoluir para uma arquitetura baseada em Data Lake, utilizando o padrão Medallio
 
 ## 🔗 Rastreabilidade
 
+- 🪵 Camada Bronze (Ingestão via SharePoint via conector gerenciado): [Ver documentação](../docs/03_desenvolvimento.md)
 - 📥 Ingestão / Estruturação PlanoConta (Bronze → Silver): [Ver Script](../scripts/cloud/silver/01_plano_conta.py)  
 - 📊 Transformação Resultado (Bronze → Silver): [Ver Script](../scripts/cloud/silver/02_resultado.py)  
 - 🧱 Dimensão dPlanoConta (Silver → Gold): [Ver Script](../scripts/cloud/gold/03_d_plano_conta.py)  
