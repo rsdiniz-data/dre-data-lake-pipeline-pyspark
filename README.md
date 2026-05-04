@@ -105,10 +105,11 @@ SharePoint → Bronze → Silver → Gold → Power BI
 
 ## 💻 Scripts
 
-* 📥 [Plano de Contas (Silver)](./scripts/python/01_ingestao_plano_conta.py)
-* 📊 [Resultado (Silver)](./scripts/python/02_ingestao_resultado.py)
-* 🧱 [Dimensão dPlanoConta (Gold)](./scripts/python/03_gold_dplano_conta.py)
-* 🔄 [Fato ftResultado (Gold)](./scripts/python/04_gold_ftresultado.py)
+* 🪵 [Camada Bronze (Ingestão)](./docs/03_desenvolvimento.md)
+* 📥 [Plano de Contas (Silver)](./scripts/cloud/silver/01_plano_conta.py)  
+* 📊 [Resultado (Silver)](./scripts/cloud/silver/02_resultado.py)  
+* 🧱 [Dimensão dPlanoConta (Gold)](./scripts/cloud/gold/03_d_plano_conta.py)  
+* 🔄 [Fato ftResultado (Gold)](./scripts/cloud/gold/04_ft_resultado.py)  
 
 ---
 
