@@ -1,6 +1,6 @@
 # 4. Dicionário de Dados
 
-> Este dicionário descreve as tabelas da camada Gold, utilizadas para consumo analítico no Power BI.
+> Este dicionário descreve as tabelas da camada Gold, preparadas para consumo analítico por ferramentas de visualização e outros consumidores de dados.
 
 ## 📊 dPlanoConta
 
