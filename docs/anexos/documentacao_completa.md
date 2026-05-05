@@ -1,17 +1,17 @@
-**SOLUÇÃO DE ENGENHARIA DE DADOS**
-**PROJETO: DRE Embraer | Data Lake (Medallion) + PySpark + Nekt Cloud**
-**Autor:** Ricardo Diniz
-**Plataforma:** Nekt Cloud 
-**Arquitetura:** Data Lake (Medallion – Bronze, Silver, Gold) 
-**Orquestração:** Notebooks (execução encadeada)
-**Tecnologias Utilizadas:**
-•	PySpark 
-•	SharePoint Connector 
-•	Data Lake (Parquet – formato columnar) 
-•	Google Colab (desenvolvimento dos notebooks) 
-•	Google BigQuery (integração nativa da plataforma) 
-•	Power BI (Ferramenta de visualização)
-**Repositório com scripts e documentação técnica:** GitHub - Projeto DRE Nekt Cloud
+#**SOLUÇÃO DE ENGENHARIA DE DADOS**  
+**PROJETO: DRE Embraer | Data Lake (Medallion) + PySpark + Nekt Cloud**  
+**Autor:** Ricardo Diniz  
+**Plataforma:** Nekt Cloud  
+**Arquitetura:** Data Lake (Medallion – Bronze, Silver, Gold)  
+**Orquestração:** Notebooks (execução encadeada)  
+**Tecnologias Utilizadas:**  
+•	PySpark  
+•	SharePoint Connector  
+•	Data Lake (Parquet – formato columnar)  
+•	Google Colab (desenvolvimento dos notebooks)  
+•	Google BigQuery (integração nativa da plataforma)  
+•	Power BI (Ferramenta de visualização) 
+**Repositório com scripts e documentação técnica:** GitHub - Projeto DRE Nekt Cloud 
 
 
 ________________________________________
