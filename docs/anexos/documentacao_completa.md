@@ -12,10 +12,8 @@
 •	Google BigQuery (integração nativa da plataforma)  
 •	Power BI (Ferramenta de visualização) 
 **Repositório com scripts e documentação técnica:** GitHub - Projeto DRE Nekt Cloud 
-
-
 ________________________________________
-Sumário
+Sumário  
 **1. Objetivo do Projeto**  
 1.1 Justificativa  
 1.2 Plataforma Utilizada  
