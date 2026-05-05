@@ -9,7 +9,7 @@
 #
 # 🔗 Rastreabilidade:
 # - Documento técnico: ../docs/03_desenvolvimento.md
-# - Artigo técnico ../docs/06_artigo_tecnico.md
+# - Artigo: ../docs/06_artigo_tecnico.md
 #   3.4 Desenvolvimento dos notebooks em PySpark
 #   3.4.2 Notebook 02 – Transformações de Resultado
 #
