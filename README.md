@@ -119,10 +119,10 @@ SharePoint → Bronze → Silver (PySpark) → Gold (Dimensional) → Ferramenta
 ## 💻 Scripts
 
 * 🪵 [Camada Bronze (Ingestão)](./docs/03_desenvolvimento.md)  
-* 📥 [Plano de Contas (Silver)](./scripts/cloud/silver/01_ingestao_plano_conta.py)  
-* 📊 [Resultado (Silver)](./scripts/cloud/silver/02_ingestao_resultado.py)  
-* 🧱 [Dimensão dPlanoConta (Gold)](./scripts/cloud/gold/03_ingestao_dplano_conta.py)  
-* 🔄 [Fato ftResultado (Gold)](./scripts/cloud/gold/04_ingestao_ftresultado.py)  
+* 📥 [Plano de Contas (Silver)](./scripts/cloud/silver/01_plano_conta.py)  
+* 📊 [Resultado (Silver)](./scripts/cloud/silver/02_resultado.py)  
+* 🧱 [Dimensão dPlanoConta (Gold)](./scripts/cloud/gold/03_d_plano_conta.py)  
+* 🔄 [Fato ftResultado (Gold)](./scripts/cloud/gold/04_ft_resultado.py)  
 
 ---
 
