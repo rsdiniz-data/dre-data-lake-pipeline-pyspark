@@ -9,7 +9,7 @@
 #
 # 🔗 Rastreabilidade:
 # - Documento técnico: ../docs/03_desenvolvimento.md
-# - Documento funcional:
+# - Documentação do projeto/artigo: ../docs/anexos/documentacao_dre_cloud.docx
 #   3.4 Desenvolvimento dos notebooks em PySpark
 #   3.4.1 Notebook 01 – Transformações de PlanoConta
 #
