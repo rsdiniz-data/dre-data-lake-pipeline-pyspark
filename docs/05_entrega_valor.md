@@ -1,34 +1,65 @@
 # 5. Entrega de Valor
 
-## 🔒 Segurança
+## 🧠 Governança e Confiabilidade
 
-- Dados centralizados no Data Lake  
-- Controle de acesso por camada  
+- Origem controlada via SharePoint  
+- Dados centralizados em Data Lake  
 - Eliminação de dependência de arquivos locais  
+- Rastreabilidade do dado da origem ao consumo  
 
 ---
 
-## ⚡ Performance
+## ⚙️ Automação e Operação
+
+- Pipeline automatizado com gatilho na fonte  
+- Execução encadeada de notebooks  
+- Redução de intervenção manual  
+- Maior previsibilidade nas execuções  
+
+---
+
+## 🔄 Flexibilidade de Consumo
+
+- Arquitetura independente de ferramenta  
+- Integração com Power BI e outras soluções analíticas  
+- Base única para múltiplos consumidores  
+- Redução de retrabalho e divergência de dados  
+
+---
+
+## 💰 Eficiência e Custo
+
+- Ingestão seletiva de dados  
+- Uso de formato columnar (Parquet)  
+- Particionamento por ano  
+- Redução de leitura e processamento desnecessário  
+
+---
+
+## ⚡ Performance e Escalabilidade
 
 - Processamento distribuído com PySpark  
-- Uso de formato colunar (Parquet), otimizado para leitura analítica  
-- Redução de carga nas ferramentas de consumo  
+- Melhor desempenho em grandes volumes  
+- Arquitetura preparada para crescimento  
+- Expansão facilitada para novas fontes  
 
 ---
 
-## 📈 Escalabilidade
+## 🧩 Reuso e Desacoplamento
 
-- Arquitetura preparada para grandes volumes de dados  
-- Facilidade de integração com novas fontes  
-- Reuso de dados entre múltiplos consumidores  
+- Publicação em tabela e parquet  
+- Separação entre processamento e consumo  
+- Dados reutilizáveis em diferentes cenários  
+- Flexibilidade para novos pipelines  
 
 ---
 
-## 🧠 Governança
+## 🏗️ Arquitetura Moderna
 
-- Separação clara entre Bronze, Silver e Gold  
-- Rastreabilidade completa do pipeline  
-- Padronização das transformações  
+- Modelo em camadas (Bronze, Silver e Gold)  
+- Separação clara de responsabilidades  
+- Facilidade de manutenção e reprocessamento  
+- Base aderente a boas práticas de Engenharia de Dados  
 
 ---
 
@@ -36,8 +67,13 @@
 
 Projeto evoluiu de:
 
-➡️ Arquivos locais (Power BI)  
-➡️ SQL Server (dados estruturados)  
-➡️ Data Lake (arquitetura escalável e distribuída)  
+➡️ Arquivos locais  
+➡️ SQL Server (processamento centralizado)  
+➡️ Data Lake com PySpark (processamento distribuído)  
 
-Essa evolução posiciona a solução dentro de um contexto moderno de Engenharia de Dados, preparada para crescimento e novos cenários analíticos.
+Resultando em uma solução:
+
+- Escalável  
+- Governada  
+- Reutilizável  
+- Preparada para crescimento  
