@@ -120,3 +120,8 @@ df.write \
     .mode("overwrite") \
     .format("parquet") \
     .save(output_path)
+
+# Observação:
+# A camada Gold mantém duas representações:
+# - Tabela: otimizada para consumo analítico
+# - Parquet: otimizado para reuso e pipelines futuros
