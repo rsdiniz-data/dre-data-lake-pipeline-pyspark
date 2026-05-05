@@ -10,8 +10,8 @@
 •	Data Lake (Parquet – formato columnar)  
 •	Google Colab (desenvolvimento dos notebooks)  
 •	Google BigQuery (integração nativa da plataforma)  
-•	Power BI (Ferramenta de visualização) 
-**Repositório com scripts e documentação técnica:** GitHub - Projeto DRE Nekt Cloud 
+•	Power BI (Ferramenta de visualização)  
+**Repositório com scripts e documentação técnica:** GitHub - Projeto DRE Nekt Cloud  
 ________________________________________
 Sumário  
 **1. Objetivo do Projeto**  
