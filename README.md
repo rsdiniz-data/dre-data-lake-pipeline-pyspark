@@ -53,7 +53,7 @@ SQL Server 👉 [*DRE Embraer – SQL Server + Power BI*](https://github.com/rsd
 
 ## 🚀 Evolução da Solução
 
-Evoluí o projeto para uma arquitetura baseada em Data Lake, utilizando o padrão Medallion (Bronze, Silver e Gold) na plataforma da Nekt:
+Evoluí o projeto para uma arquitetura baseada em Data Lake, utilizando o padrão Medallion (Bronze, Silver e Gold) na plataforma da [Nekt](https://www.nekt.com/pt):
 
 * Ingestão automatizada via SharePoint  
 * Armazenamento em Data Lake  
