@@ -1,10 +1,12 @@
-# 📊 DRE Embraer | Data Lake + PySpark + Power BI
+# 📊 DRE Embraer | Data Lake + PySpark (Arquitetura Medallion)
 
 ## 🧠 Sobre o Projeto
 
 Desenvolvi um projeto para análise da DRE (Demonstração do Resultado do Exercício) da Embraer utilizando uma arquitetura em nuvem baseada em Data Lake.
 
-O desafio: transformar dados públicos (Excel no SharePoint) em informação confiável para análise financeira — agora com foco em escalabilidade, governança e automação.
+O desafio: transformar dados públicos (Excel no SharePoint) em informação confiável para análise financeira, com foco em escalabilidade, governança e automação.
+
+Este projeto demonstra a evolução de uma solução de BI baseada em arquivos para uma arquitetura moderna de dados, utilizando processamento distribuído com PySpark e organização em camadas (Bronze, Silver e Gold).
 
 ---
 
@@ -35,35 +37,37 @@ Ainda assim, alguns desafios permaneceram:
 * Dificuldade de expansão para novos volumes e fontes  
 * Baixa flexibilidade para processamento distribuído  
 
-Mesmo com ganhos significativos em organização e performance, a solução ainda não estava preparada para cenários de crescimento e para uma arquitetura moderna de dados.
+Mesmo com ganhos significativos em organização e performance, a solução ainda não estava preparada para cenários de grande volume de dados e arquiteturas modernas.
+
+Diante disso, surgiu a necessidade de evoluir para uma arquitetura mais escalável, desacoplada e preparada para processamento distribuído.
 
 ---
 
 ## 🔗 Projetos anteriores
 
-Power BI 👉 [*DRE Automatizada – Análise Financeira*](https://github.com/rsdiniz-data/dre-analise-financeira-powerbi) 
+Power BI 👉 [*DRE Automatizada – Análise Financeira*](https://github.com/rsdiniz-data/dre-analise-financeira-powerbi)  
 
-SQL Server👉 [*DRE Embraer – SQL Server + Power BI*](https://github.com/rsdiniz-data/dre-data-pipeline-sql-server)
+SQL Server 👉 [*DRE Embraer – SQL Server + Power BI*](https://github.com/rsdiniz-data/dre-data-pipeline-sql-server)
 
 ---
 
 ## 🚀 Evolução da Solução
 
-Evoluí o projeto para uma arquitetura baseada em Data Lake, utilizando o padrão Medallion (Bronze, Silver e Gold) na plataforma da [Nekt](https://www.nekt.com/pt):
+Evoluí o projeto para uma arquitetura baseada em Data Lake, utilizando o padrão Medallion (Bronze, Silver e Gold) na plataforma da Nekt:
 
-* Ingestão automatizada via SharePoint
-* Armazenamento em Data Lake
-* Transformações com PySpark (processamento distribuído)
-* Pipeline orquestrado e automatizado
-* Publicação de dados prontos para consumo analítico
+* Ingestão automatizada via SharePoint  
+* Armazenamento em Data Lake  
+* Transformações com PySpark (processamento distribuído)  
+* Pipeline orquestrado e automatizado  
+* Publicação de dados prontos para consumo analítico  
 
-Com isso:
+Com essa abordagem:
 
-* Separação clara entre dado bruto, tratado e analítico
-* Processamento distribuído e escalável
-* Redução de acoplamento entre ingestão e consumo
-* Reuso de dados em múltiplos cenários
-* Maior governança e rastreabilidade
+* Separação clara entre dado bruto, tratado e analítico  
+* Processamento distribuído e escalável  
+* Redução de acoplamento entre ingestão e consumo  
+* Reuso de dados em múltiplos cenários  
+* Maior governança e rastreabilidade  
 
 Mais do que uma evolução técnica, foi a transição de um ambiente local para uma arquitetura orientada a dados em escala.
 
@@ -81,12 +85,12 @@ Mais do que uma evolução técnica, foi a transição de um ambiente local para
 
 ## 📊 Arquitetura
 
-* Data Lake no padrão Medallion
-* Camada Bronze (dados brutos)
-* Camada Silver (dados tratados)
-* Camada Gold (dados analíticos)
-* PySpark para processamento distribuído
-* Power BI como camada de consumo
+* Data Lake no padrão Medallion  
+* Camada Bronze (dados brutos)  
+* Camada Silver (dados tratados e padronizados)  
+* Camada Gold (modelo analítico/dimensional)  
+* PySpark para processamento distribuído  
+* Dados armazenados em formato columnar (Parquet)  
 
 📷 ![Arquitetura](./images/arquitetura.png)
 
@@ -94,45 +98,68 @@ Mais do que uma evolução técnica, foi a transição de um ambiente local para
 
 ## 🔄 Pipeline
 
-SharePoint → Bronze → Silver → Gold → Power BI
+SharePoint → Bronze → Silver (PySpark) → Gold (Dimensional) → Ferramentas de visualização
 
-* Ingestão automática via conector
-* Execução encadeada de notebooks
-* Dependência entre camadas
-* Pipeline orientado a eventos
+* Ingestão automática via conector  
+* Execução encadeada de notebooks  
+* Dependência entre camadas  
+* Pipeline orientado a eventos  
 
 ---
 
 ## 💻 Scripts
 
-* 🪵 [Camada Bronze (Ingestão)](./docs/03_desenvolvimento.md)
-* 📥 [Plano de Contas (Silver)](./scripts/cloud/silver/01_plano_conta.py)  
-* 📊 [Resultado (Silver)](./scripts/cloud/silver/02_resultado.py)  
-* 🧱 [Dimensão dPlanoConta (Gold)](./scripts/cloud/gold/03_d_plano_conta.py)  
-* 🔄 [Fato ftResultado (Gold)](./scripts/cloud/gold/04_ft_resultado.py)  
+* 🪵 [Camada Bronze (Ingestão)](./docs/03_desenvolvimento.md)  
+* 📥 [Plano de Contas (Silver)](./scripts/cloud/silver/01_ingestao_plano_conta.py)  
+* 📊 [Resultado (Silver)](./scripts/cloud/silver/02_ingestao_resultado.py)  
+* 🧱 [Dimensão dPlanoConta (Gold)](./scripts/cloud/gold/03_ingestao_dplano_conta.py)  
+* 🔄 [Fato ftResultado (Gold)](./scripts/cloud/gold/04_ingestao_ftresultado.py)  
 
 ---
 
 ## 💡 Valor para o Negócio
 
-* Centralização da ingestão de dados
-* Redução de dependência de arquivos e ambientes locais
-* Maior confiabilidade e consistência dos dados
-* Escalabilidade para novos volumes e fontes
-* Base preparada para múltiplos consumidores (BI e dados)
-* Uso eficiente de recursos em nuvem, com ingestão seletiva e otimização de armazenamento
+* Centralização da ingestão de dados  
+* Redução de dependência de arquivos e ambientes locais  
+* Maior confiabilidade e consistência dos dados  
+* Escalabilidade para novos volumes e fontes  
+* Base preparada para múltiplos consumidores (BI e dados)  
+* Uso eficiente de recursos em nuvem com processamento distribuído  
+
+---
+
+## 📊 Consumo
+
+Os dados da camada Gold podem ser consumidos por diferentes ferramentas de visualização e análise, como Power BI, Tableau ou outras soluções analíticas.
 
 ---
 
 ## 📢 Links
 
-📊 [Acessar dashboard interativo](link)
+📊 [Acessar dashboard interativo](link)  
 📢 [Ler artigo completo](link)
+
+---
+
+## 🧠 Tecnologias Utilizadas
+
+* PySpark  
+* Data Lake  
+* Parquet (formato columnar)  
+* Arquitetura Medallion (Bronze, Silver, Gold)  
+* SharePoint (origem dos dados)  
+* Ferramentas de visualização (Power BI, entre outras)  
 
 ---
 
 ## ✅ Conclusão
 
-Este projeto demonstra a evolução de uma solução estruturada em SQL Server para uma arquitetura moderna baseada em Data Lake, com foco em escalabilidade, governança e processamento distribuído.
+O projeto evoluiu de:
 
-Mais do que uma melhoria técnica, representa a transição para um modelo alinhado às práticas de Engenharia de Dados, preparado para crescimento e novos cenários analíticos.
+➡️ Arquivos locais  
+➡️ SQL Server (processamento centralizado)  
+➡️ Data Lake com PySpark (processamento distribuído)  
+
+Resultando em uma arquitetura moderna, escalável e alinhada com práticas de Engenharia de Dados.
+
+Mais do que uma melhoria técnica, representa a transição para um modelo preparado para crescimento, governança e novos cenários analíticos.
