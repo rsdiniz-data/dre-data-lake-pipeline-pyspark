@@ -9,7 +9,7 @@
 #
 # 🔗 Rastreabilidade:
 # - Documento técnico: ../docs/03_desenvolvimento.md
-# - Documentação do projeto/artigo: ../docs/anexos/documentacao_dre_cloud.docx
+# - Documento funcional/artigo ../docs/anexos/documento_funcional.docx
 #   3.4 Desenvolvimento dos notebooks em PySpark
 #   3.4.4 Notebook 04 – Publicação de ftResultado
 #
