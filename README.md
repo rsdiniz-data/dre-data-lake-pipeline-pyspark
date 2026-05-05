@@ -80,6 +80,16 @@ Mais do que uma evolução técnica, foi a transição de um ambiente local para
 * ⚙️ [Desenvolvimento](./docs/03_desenvolvimento.md)
 * 📊 [Dicionário de Dados](./docs/04_dicionario_dados.md)
 * 💡 [Entrega de Valor](./docs/05_entrega_valor.md)
+* 📘 [Documento Funcional](./docs/06_documento_funcional.md)
+
+---
+
+## 📄 Documento Funcional
+
+Este projeto também possui um documento funcional detalhando regras de negócio, etapas do pipeline e decisões técnicas.
+
+📘 [Resumo do Documento Funcional](./docs/06_documento_funcional.md)  
+📎 [Versão completa (.docx)](./docs/anexos/documento_funcional.docx)
 
 ---
 
