@@ -49,7 +49,7 @@ Tabelas:
 ## ⭐ Modelo Dimensional
 
 * Fato: `ftResultado`
-* Dimensão: `dPlanoConta`
+* Dimensão: `dPlanoConta`    
 * Dimensão: `dCalendario`
 
 Relacionamento:
