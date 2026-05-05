@@ -16,54 +16,54 @@
 
 ________________________________________
 Sumário
-## 1. Objetivo do Projeto
-1.1 Justificativa
-1.2 Plataforma Utilizada
-## 2. Arquitetura da Solução
-2.1 Visão Geral da Arquitetura
-2.2 Camadas do Data Lake
-2.2.1 Camada Bronze (Raw Data)
-2.2.2 Camada Silver (Trusted Data)
-2.2.3 Camada Gold (Business Data)
-2.3 Tecnologias Utilizadas
-## 3. Desenvolvimento do Projeto
-3.1 Criação do Workspace e do Data Lake
-3.2 Ingestão dos dados da DRE com o conector SharePoint
-3.3 Estrutura do catálogo e publicação das camadas
-3.4 Desenvolvimento dos notebooks em PySpark
-3.4.1 Notebook 01 – Transformações de PlanoConta na Silver
-3.4.2 Notebook 02 – Transformações de Resultado na Silver
-3.4.3 Notebook 03 – Publicação de dPlanoConta na Gold
-3.4.4 Notebook 04 – Publicação de ftResultado na Gold
-3.5 Integração com o Power BI
-3.5.1 Configuração da Conexão
-3.5.2 Benefícios da Integração
-3.6 Orquestração do Pipeline
-3.6.1 Estrutura do Pipeline
-3.6.2 Lógica de Orquestração
-3.7. Evolução da Solução
-3.7.1 Comparativo entre Projetos
-3.7.2 Ganhos Obtidos
-3.8 Resultado para o Negócio
-3.9 Conclusão da etapa de desenvolvimento
-## 4. Dicionário de Dados
-4.1 Tabela dPlanoConta
-4.1.1 Descrição da Tabela
-4.1.2 Estrutura da Tabela
-4.2 Tabela ftResultado
-4.2.1 Descrição da Tabela
-4.2.2 Estrutura da Tabela
-## 5. Entrega de Valor
-5.1 Perspectiva de Negócio
-5.2 Perspectiva Técnica
-5.3 Consolidação da Entrega
+**1. Objetivo do Projeto**  
+1.1 Justificativa  
+1.2 Plataforma Utilizada  
+**2. Arquitetura da Solução**  
+2.1 Visão Geral da Arquitetura  
+2.2 Camadas do Data Lake  
+2.2.1 Camada Bronze (Raw Data)  
+2.2.2 Camada Silver (Trusted Data)  
+2.2.3 Camada Gold (Business Data)  
+2.3 Tecnologias Utilizadas  
+**3. Desenvolvimento do Projeto**  
+3.1 Criação do Workspace e do Data Lake  
+3.2 Ingestão dos dados da DRE com o conector SharePoint  
+3.3 Estrutura do catálogo e publicação das camadas  
+3.4 Desenvolvimento dos notebooks em PySpark  
+3.4.1 Notebook 01 – Transformações de PlanoConta na Silver  
+3.4.2 Notebook 02 – Transformações de Resultado na Silver  
+3.4.3 Notebook 03 – Publicação de dPlanoConta na Gold  
+3.4.4 Notebook 04 – Publicação de ftResultado na Gold  
+3.5 Integração com o Power BI  
+3.5.1 Configuração da Conexão  
+3.5.2 Benefícios da Integração  
+3.6 Orquestração do Pipeline  
+3.6.1 Estrutura do Pipeline  
+3.6.2 Lógica de Orquestração  
+3.7. Evolução da Solução  
+3.7.1 Comparativo entre Projetos  
+3.7.2 Ganhos Obtidos  
+3.8 Resultado para o Negócio  
+3.9 Conclusão da etapa de desenvolvimento  
+**4. Dicionário de Dados**  
+4.1 Tabela dPlanoConta  
+4.1.1 Descrição da Tabela  
+4.1.2 Estrutura da Tabela  
+4.2 Tabela ftResultado  
+4.2.1 Descrição da Tabela  
+4.2.2 Estrutura da Tabela  
+**5. Entrega de Valor**  
+5.1 Perspectiva de Negócio  
+5.2 Perspectiva Técnica  
+5.3 Consolidação da Entrega  
 ________________________________________
-## 1. Objetivo do Projeto
-## 1.1 Justificativa
+## 1. Objetivo do Projeto  
+## 1.1 Justificativa  
 Este projeto tem como objetivo estruturar uma solução de dados para análise da DRE da Embraer, a partir de dados públicos armazenados em SharePoint, utilizando uma arquitetura moderna em nuvem.
-Antes da adoção da arquitetura em nuvem, o projeto evoluiu por duas etapas:
-**• Power BI (arquivos locais)** – permitiu uma implementação rápida, porém com baixa governança, forte dependência de arquivos e limitações de performance
-*Ver solução:* Acessar projeto no GitHub
+Antes da adoção da arquitetura em nuvem, o projeto evoluiu por duas etapas:  
+**• Power BI (arquivos locais)** – permitiu uma implementação rápida, porém com baixa governança, forte dependência de arquivos e limitações de performance  
+*Ver solução:* Acessar projeto no GitHub  
 • SQL Server (ambiente local) – trouxe centralização, maior controle e ganhos de desempenho, mas ainda com restrições de escalabilidade
 Ver solução: Acessar projeto no GitHub
 Versão atual:
