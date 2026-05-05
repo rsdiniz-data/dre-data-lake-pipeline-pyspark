@@ -50,10 +50,12 @@ Tabelas:
 
 * Fato: `ftResultado`
 * Dimensão: `dPlanoConta`
+* Dimensão: `dCalendario`
 
 Relacionamento:
 
 `dPlanoConta (1) → (N) ftResultado`
+`dCalendario (1) → (N) ftResultado`
 
 📷 ![Modelo](../images/modelo_dimensional.png)
 
