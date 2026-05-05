@@ -80,7 +80,6 @@ Mais do que uma evolução técnica, foi a transição de um ambiente local para
 * ⚙️ [Desenvolvimento](./docs/03_desenvolvimento.md)
 * 📊 [Dicionário de Dados](./docs/04_dicionario_dados.md)
 * 💡 [Entrega de Valor](./docs/05_entrega_valor.md)
-* 📘 [Artigo Técnico](./docs/06_artigo_tecnico.md)
 
 ---
 
