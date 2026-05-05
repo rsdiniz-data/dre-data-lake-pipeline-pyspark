@@ -1,4 +1,4 @@
-# 📘 Artigo Técnico – DRE Embraer em Data Lake
+# 6. Artigo Técnico – DRE Embraer em Data Lake
 
 Este artigo apresenta a construção de uma solução de dados para análise da DRE da Embraer, evoluindo de uma abordagem em Power BI até uma arquitetura moderna em Data Lake com PySpark na Nekt Cloud.
 
