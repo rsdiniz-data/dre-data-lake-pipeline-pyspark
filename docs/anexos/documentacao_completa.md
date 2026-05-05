@@ -15,8 +15,8 @@
 ________________________________________
 Sumário  
 **1. Objetivo do Projeto**
-   - 1.1 Justificativa  
-   - 1.2 Plataforma Utilizada  
+ 1.1 Justificativa  
+ 1.2 Plataforma Utilizada  
 **2. Arquitetura da Solução**  
 2.1 Visão Geral da Arquitetura  
 2.2 Camadas do Data Lake  
