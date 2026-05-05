@@ -94,19 +94,6 @@ Execução pode ser realizada via notebooks ou jobs agendados.
 
 ---
 
-## 🔍 Validação do Pipeline
-
-Validações aplicadas:
-
-* Conferência de volumes entre Bronze, Silver e Gold
-* Validação de consistência da dimensão dPlanoConta
-* Conferência da tabela fato ftResultado
-* Agregações por período para validação de totais
-* Identificação de registros sem correspondência
-* Validação da hierarquia de contas
-
----
-
 ## 📊 Consumo
 
 Power BI conectado à camada Gold (dados já tratados e modelados).
