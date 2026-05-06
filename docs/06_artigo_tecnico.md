@@ -3,7 +3,7 @@
 Este artigo apresenta a construção de uma solução de dados para análise da DRE da Embraer, evoluindo de uma abordagem em Power BI até uma arquitetura moderna em Data Lake com PySpark na Nekt Cloud.
 
 ## 🔗 Acesse o artigo completo
-👉 [Ler no LinkedIn](link)
+👉 [Ler no LinkedIn](https://www.linkedin.com/pulse/de-bi-engenharia-dados-como-transformei-uma-dre-em-escal%C3%A1vel-diniz-fvitf/)
 
 ---
 
