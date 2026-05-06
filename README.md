@@ -87,7 +87,7 @@ Mais do que uma evolução técnica, foi a transição de um ambiente local para
 
 Este projeto também possui um material detalhado com regras de negócio, lógica do pipeline e decisões técnicas.
 
-📘 [Acessar artigo completo no LinkedIn](link)    
+📘 [Acessar artigo completo no LinkedIn](https://www.linkedin.com/pulse/de-bi-engenharia-dados-como-transformei-uma-dre-em-escal%C3%A1vel-diniz-fvitf/)    
 📄 [Versão resumida no repositório](./docs/06_artigo_tecnico.md)
 
 ---
